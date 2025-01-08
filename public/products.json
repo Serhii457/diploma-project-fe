@@ -1,0 +1,254 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Жіноча куртка",
+        "description": "Стильна куртка для прохолодної погоди.",
+        "price": 1500,
+        "category": "woman",
+        "image": "/images/woman/Жіноча куртка.png"
+      },
+      {
+        "id": 2,
+        "name": "Жіноча блуза",
+        "description": "Стильна блуза.",
+        "price": 900,
+        "category": "woman",
+        "image": "/images/woman/Жіноча блуза.png"
+      },
+      {
+        "id": 3,
+        "name": "Жіноча спідниця",
+        "description": "Стильна спідниця.",
+        "price": 750,
+        "category": "woman",
+        "image": "/images/woman/Жіноча спідниця.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Жіноча сукня",
+        "description": "Стильна сукня.",
+        "price": 1200,
+        "category": "woman",
+        "image": "/images/woman/Жіноча сукня.png"
+      },
+      {
+        "id": 5,
+        "name": "Жіночий костюм",
+        "description": "Стильний костюм.",
+        "price": 2500,
+        "category": "woman",
+        "image": "/images/woman/Жіночий костюм.png"
+      },
+      {
+        "id": 6,
+        "name": "Жіночий светр",
+        "description": "Стильний светр.",
+        "price": 1000,
+        "category": "woman",
+        "image": "/images/woman/Жіночий светр.png"
+      },
+      {
+        "id": 7,
+        "name": "Жіночі брюки",
+        "description": "Стильні брюки.",
+        "price": 1200,
+        "category": "woman",
+        "image": "/images/woman/Жіночі брюки.png"
+      },
+      {
+        "id": 8,
+        "name": "Жіночі джинси",
+        "description": "Стильні джинси.",
+        "price": 1500,
+        "category": "woman",
+        "image": "/images/woman/Жіночі джинси.jpg"
+      },
+      {
+        "id": 9,
+        "name": "Вишиванка чоловіча",
+        "description": "Стильна вишиванка.",
+        "price": 800,
+        "category": "man",
+        "image": "/images/man/Вишиванка чоловіча.jpg"
+      },
+      {
+        "id": 10,
+        "name": "Чоловічі джинси",
+        "description": "Стильні джинси.",
+        "price": 1000,
+        "category": "man",
+        "image": "/images/man/Джинси.jpg"
+      },
+      {
+        "id": 11,
+        "name": "Чоловіча сорочка",
+        "description": "Стильна сорочка.",
+        "price": 700,
+        "category": "man",
+        "image": "/images/man/Сорочка.jpg"
+      },
+      {
+        "id": 12,
+        "name": "Спортивний костюм",
+        "description": "Чоловічий спортивний костюм.",
+        "price": 2000,
+        "category": "man",
+        "image": "/images/man/Спортивний костюм.jpg"
+      },
+      {
+        "id": 13,
+        "name": "Темно-сірі штани в клітинку",
+        "description": "Стильні штани.",
+        "price": 1000,
+        "category": "man",
+        "image": "/images/man/Темно-сірі штани в клітинку.jpg"
+      },
+      {
+        "id": 14,
+        "name": "Футболка-поло синя",
+        "description": "Стильна футболка.",
+        "price": 500,
+        "category": "man",
+        "image": "/images/man/Футболка-поло синя.jpg"
+      },
+      {
+        "id": 15,
+        "name": "Футболка-поло",
+        "description": "Стильна футболка.",
+        "price": 500,
+        "category": "man",
+        "image": "/images/man/Футболка-поло.jpg"
+      },
+      {
+        "id": 16,
+        "name": "Футболка",
+        "description": "Стильна футболка.",
+        "price": 500,
+        "category": "man",
+        "image": "/images/man/Футболка.jpg"
+      },
+      {
+        "id": 17,
+        "name": "Чорні штани",
+        "description": "Стильні штани.",
+        "price": 1000,
+        "category": "man",
+        "image": "/images/man/Чорні штани.jpg"
+      },
+      {
+        "id": 18,
+        "name": "Дитяча кофта",
+        "description": "Стильна кофта.",
+        "price": 800,
+        "category": "kids",
+        "image": "/images/kids/Дитяча кофта.webp"
+      },
+      {
+        "id": 19,
+        "name": "Дитяча куртка",
+        "description": "Стильна куртка.",
+        "price": 2000,
+        "category": "kids",
+        "image": "/images/kids/Дитяча куртка TH.webp"
+      },
+      {
+        "id": 20,
+        "name": "Дитячий плащ",
+        "description": "Яскравий плащ.",
+        "price": 1200,
+        "category": "kids",
+        "image": "/images/kids/Дитячий плащ.jpg"
+      },
+      {
+        "id": 21,
+        "name": "Дитячий светр",
+        "description": "Стильний светр.",
+        "price": 850,
+        "category": "kids",
+        "image": "/images/kids/Дитячий светр.png"
+      },
+      {
+        "id": 22,
+        "name": "Дитячі джинси Guess",
+        "description": "Стильні джинси.",
+        "price": 1200,
+        "category": "kids",
+        "image": "/images/kids/Дитячі джинси Guess.jpg"
+      },
+      {
+        "id": 23,
+        "name": "Дитячі джинси Pinco",
+        "description": "Стильні джинси.",
+        "price": 1000,
+        "category": "kids",
+        "image": "/images/kids/Дитячі джинси Pinco.jpg"
+      },
+      {
+        "id": 24,
+        "name": "Дитячі спортивні штани",
+        "description": "Стильні штани.",
+        "price": 1100,
+        "category": "kids",
+        "image": "/images/kids/Дитячі спортивні штани TH.jpg"
+      },
+      {
+        "id": 25,
+        "name": "Баф мультиколор_1",
+        "description": "Стильний баф.",
+        "price": 300,
+        "category": "aksessuary",
+        "image": "/images/aksessuary/Баф мультиколор_1.jpg"
+      },
+      {
+        "id": 26,
+        "name": "Баф мультиколор_2",
+        "description": "Стильний баф.",
+        "price": 300,
+        "category": "aksessuary",
+        "image": "/images/aksessuary/Баф мультиколор_2.jpg"
+      },
+      {
+        "id": 27,
+        "name": "В'язана шапка для хлопчика",
+        "description": "Стильна шапка.",
+        "price": 600,
+        "category": "aksessuary",
+        "image": "/images/aksessuary/В'язана шапка для хлопчика.jpg"
+      },
+      {
+        "id": 28,
+        "name": "В'язаний комплект для хлопчика",
+        "description": "Стильний комплект.",
+        "price": 900,
+        "category": "aksessuary",
+        "image": "/images/aksessuary/В'язаний комплект для хлопчика.jpg"
+      },
+      {
+        "id": 29,
+        "name": "В'язані рукавички молочні",
+        "description": "Стильні рукавички.",
+        "price": 400,
+        "category": "aksessuary",
+        "image": "/images/aksessuary/В'язані рукавички молочні.jpg"
+      },
+      {
+        "id": 30,
+        "name": "В'язані рукавички рожеві",
+        "description": "Стильні рукавички.",
+        "price": 400,
+        "category": "aksessuary",
+        "image": "/images/aksessuary/В'язані рукавички рожеві.jpg"
+      },
+      {
+        "id": 31,
+        "name": "Шапка чоловіча",
+        "description": "Стильна шапка.",
+        "price": 500,
+        "category": "aksessuary",
+        "image": "/images/aksessuary/Шапка чоловіча.jpg"
+      }
+
+    ]
+}
+  
