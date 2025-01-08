@@ -19,50 +19,50 @@ function HomePage() {
       {/* Block */}
       <div className="row banners-wrap">
         <div className="col-lg-8 col-md-12 p-0 banner">
-          <a href="/public/images/woman" className="w-100 h-100 d-block">
+          <a href="/woman" className="w-100 h-100 d-block">
             <img width="1268" height="786" src="/banner-w.png" alt="Баннер 1" className="img-fluid"/>
           </a>
           <div className="banner-html">
-            <a href="/public/images/woman" className="w-100 h-100 d-block">
+            <a href="/woman" className="w-100 h-100 d-block">
             <div className="h1">Жінкам</div>
             </a>
-            <a href="/public/images/woman">Перейти до розділу</a>
+            <a href="/woman">Перейти до розділу</a>
           </div>
         </div>
 
         <div className="col-lg-4 col-md-12 p-0 banner">
-          <a href="/public/images/man" className="w-100 h-100 d-block">
+          <a href="/man" className="w-100 h-100 d-block">
           <img width="634" height="786" src="/banner-m.png" alt="Баннер 2" className="img-fluid"/>
           </a>
           <div className="banner-html">
-            <a href="/public/images/man" className="w-100 h-100 d-block">
+            <a href="/man" className="w-100 h-100 d-block">
             <div className="h1">Чоловікам</div>
             </a>
-            <a href="/public/images/man">Перейти до розділу</a>
+            <a href="/man">Перейти до розділу</a>
           </div>
         </div>
 
         <div className="col-lg-4 col-md-12 p-0 banner">
-          <a href="/public/images/aksessuary" className="w-100 h-100 d-block">
+          <a href="/aksessuary" className="w-100 h-100 d-block">
           <img width="634" height="786" src="/banner-aks.jpg" alt="Баннер 3" className="img-fluid"/>
           </a>
           <div className="banner-html">
-            <a href="/public/images/aksessuary" className="w-100 h-100 d-block">
+            <a href="/aksessuary" className="w-100 h-100 d-block">
             <div className="h1">Аксесуари</div>
             </a>
-            <a href="/public/images/aksessuary">Перейти до розділу</a>
+            <a href="/aksessuary">Перейти до розділу</a>
           </div>
         </div>
 
         <div className="col-lg-8 col-md-12 p-0 banner">
-          <a href="/public/images/kids" className="w-100 h-100 d-block">
+          <a href="/kids" className="w-100 h-100 d-block">
           <img width="1268" height="786" src="/banner-kid.png" alt="Баннер 4" className="img-fluid"/>
           </a>
           <div className="banner-html">
-            <a href="/public/images/kids" className="w-100 h-100 d-block">
+            <a href="/kids" className="w-100 h-100 d-block">
             <div className="h1">Дітям</div>
             </a>
-            <a href="/public/images/kids">Перейти до розділу</a>
+            <a href="/kids">Перейти до розділу</a>
           </div>
         </div>
       </div>

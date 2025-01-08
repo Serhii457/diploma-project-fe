@@ -10,10 +10,10 @@ function Footer() {
               <div className="col-12 col-sm-6 col-md-2 mb-3">
                 <h5>Категорії</h5>
                 <ul className="nav flex-column">
-                  <li className="nav-item mb-2"><a href="/public/images/man" className="nav-link p-0 text-body-secondary">Чоловіки</a></li>
-                  <li className="nav-item mb-2"><a href="/public/images/woman" className="nav-link p-0 text-body-secondary">Жінки</a></li>
-                  <li className="nav-item mb-2"><a href="/public/images/kids" className="nav-link p-0 text-body-secondary">Діти</a></li>
-                  <li className="nav-item mb-2"><a href="/public/images/aksessuary" className="nav-link p-0 text-body-secondary">Аксесуари</a></li>
+                  <li className="nav-item mb-2"><a href="/man" className="nav-link p-0 text-body-secondary">Чоловіки</a></li>
+                  <li className="nav-item mb-2"><a href="/woman" className="nav-link p-0 text-body-secondary">Жінки</a></li>
+                  <li className="nav-item mb-2"><a href="/kids" className="nav-link p-0 text-body-secondary">Діти</a></li>
+                  <li className="nav-item mb-2"><a href="/aksessuary" className="nav-link p-0 text-body-secondary">Аксесуари</a></li>
                   <li className="nav-item mb-2"><a href="#" className="nav-link p-0 text-body-secondary">Подарункові сертифікати</a></li>
                 </ul>
               </div>
