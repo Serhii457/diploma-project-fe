@@ -124,7 +124,7 @@ body {
   border: 1px solid white;
 }
 .bannerStyle{
-  background-image: url('fashion-woman.avif');
+  background-image: url('/public/fashion-woman.avif');
   background-size: cover;
   background-position: center;
   color: white;
