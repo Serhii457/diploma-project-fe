@@ -1,7 +1,17 @@
-import React from "react";
+import React, {useState} from "react";
 
 function Footer() {
-  return (
+  const [email, setEmail] = useState("");
+  const [showMessage, setShowMessage] = useState(false);
+
+  const handleSubscribe = () => {
+    if (email.trim()) {
+      setShowMessage(true);
+      setEmail("");
+      setTimeout(() => setShowMessage(false), 2000);
+    }};
+    
+    return (
     <>
       <div className="myFooterStyle">
         <div className="container">
@@ -40,15 +50,30 @@ function Footer() {
               </div>
 
               <div className="col-12 col-md-5 offset-md-1 mb-3">
-                <form>
+                <form onSubmit={(e) => e.preventDefault()}>
                   <h5>Subscribe to our newsletter</h5>
                   <p>Monthly digest of what's new and exciting from us.</p>
                   <div className="d-flex flex-column flex-sm-row w-100 gap-2">
                     <label htmlFor="newsletter1" className="visually-hidden">Email address</label>
-                    <input id="newsletter1" type="text" className="form-control" placeholder="Email address" />
-                    <button className="btn btn-primary" type="button">Subscribe</button>
+                    <input
+                      id="newsletter1"
+                      type="email"
+                      className="form-control"
+                      placeholder="Email address"
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
+                      required
+                    />
+                    <button className="btn btn-primary" type="button" onClick={handleSubscribe}>
+                      Subscribe
+                    </button>
                   </div>
                 </form>
+                {showMessage && (
+                  <div className="alert alert-success mt-3" role="alert" style={{ zIndex: 1050 }}>
+                    Ви підписалися на нашу розсилку!
+                  </div>
+                )}
               </div>
             </div>
 

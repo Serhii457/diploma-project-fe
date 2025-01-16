@@ -1,6 +1,4 @@
 import React, { useContext } from "react";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
 import { CartContext } from "../context/CartContext";
 
 function HomePage() {
@@ -8,15 +6,12 @@ function HomePage() {
 
   return (
     <>
-      <Header></Header>
-      <main>
-      {/* Блок */}
+    <main>
       <section className="banner bannerStyle">
         <h1>Ласкаво просимо до нашого магазину!</h1>
         <p>Знайдіть найкращі товари за доступними цінами.</p>
       </section>
 
-      {/* Block */}
       <div className="row banners-wrap">
         <div className="col-lg-8 col-md-12 p-0 banner">
           <a href="/woman" className="w-100 h-100 d-block">
@@ -67,7 +62,6 @@ function HomePage() {
         </div>
       </div>
 
-      {/* Block */}
       <div className="banner-aboutUs">
         <div className="container">
           <p className="title text-center">CLOTHES - інтернет-магазин, якому довіряють</p>
@@ -86,13 +80,12 @@ function HomePage() {
             </div>
             <div className="col-12 col-md-6 col-lg-3 mb-4 position-relative border-start-lg">
               <p className="subtitle">Швидка доставка</p>
-        <div>Після підтвердження деталей ми відразу ж займемося упаковкою вашого замовлення і того ж дня відправимо через Нову Пошту</div>
+              <div>Після підтвердження деталей ми відразу ж займемося упаковкою вашого замовлення і того ж дня відправимо через Нову Пошту</div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</div>
     </main>
-    <Footer></Footer>
     </>
   );
 }

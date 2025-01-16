@@ -1,8 +1,6 @@
 import React, { useContext } from "react";
 import { CartContext } from "../context/CartContext";
 import { useNavigate } from "react-router-dom";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
 
 function CartPage() {
   const { cart, addToCart, removeFromCart, clearCart } = useContext(CartContext);
@@ -11,7 +9,6 @@ function CartPage() {
 
   return (
     <>
-      <Header></Header>
       <div className="container my-4">
       <div className="d-flex flex-column flex-md-row justify-content-between align-items-center mb-4">
           <div className="d-flex align-items-center gap-3">
@@ -86,14 +83,13 @@ function CartPage() {
               <button className="btn btn-secondary" type="button" onClick={() => navigate("/")}>
                 Продовжити пошук
               </button>
-              <button className="btn btn-primary" type="button">
+              <button className="btn btn-primary" type="button" onClick={() => navigate("/checkout")}>
                 Оформити покупку
               </button>
             </div>
           </div>
         )}
       </div>
-      <Footer></Footer>
     </>
   );
 }

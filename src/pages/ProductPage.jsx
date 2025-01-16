@@ -1,6 +1,4 @@
 import React, { useEffect, useState, useContext } from "react";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
 import { useParams, useNavigate } from "react-router-dom";
 import { CartContext } from "../context/CartContext";
 
@@ -52,7 +50,6 @@ function ProductPage() {
 
   return (
     <>
-      <Header></Header>
       {showMessage && (
         <div className="alert alert-success position-fixed top-0 start-50 translate-middle-x w-100 text-center"
              style={{ zIndex: 1050 }}
@@ -96,7 +93,6 @@ function ProductPage() {
           </div>
         </div>
       </div>
-      <Footer></Footer>
     </>
   );
 }
